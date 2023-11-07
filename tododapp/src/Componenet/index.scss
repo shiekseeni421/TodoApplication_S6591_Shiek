@@ -1,0 +1,38 @@
+.todo_App {
+  .header_el {
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .btn {
+    border: none;
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color: rgb(53, 53, 110);
+    cursor: pointer;
+  }
+  .input_container {
+    .input_el {
+      outline: none;
+      border: none;
+      background-color: #89c0cfd3;
+      padding: 5px 10px;
+    }
+  }
+  .list_cont {
+    .list_item {
+      display: flex;
+      margin-top: 5px;
+      .Edit_button {
+        background-color: rgb(214, 234, 37);
+        margin-right: 10px;
+        border-radius: 10px;
+        margin-left: 5px;
+      }
+      .Delete_button {
+        background-color: rgb(218, 33, 33);
+        border-radius: 10px;
+      }
+    }
+  }
+}
